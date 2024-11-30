@@ -1,0 +1,14 @@
+/* .carousel-item {
+    @apply transition-transform duration-100 ease-linear hover:scale-105;
+  } */
+
+  .alice-carousel__stage {
+    transition: transform .2s linear !important; /* Linear transition */
+  }
+  
+ 
+  
+  .carousel-item:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+  }
+  
